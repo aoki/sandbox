@@ -1,0 +1,29 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox for software development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aoki/sandbox.git"
+  },
+  "author": "aoki <ringohub@gmail.com> (https://github.com/aoki)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aoki/sandbox/issues"
+  },
+  "homepage": "https://github.com/aoki/sandbox#readme",
+  "dependencies": {
+    "next": "9.3.0",
+    "react": "16.13.0",
+    "react-dom": "16.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "13.9.0",
+    "@types/react": "16.9.23",
+    "typescript": "3.8.3"
+  }
+}
