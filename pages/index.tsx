@@ -1,11 +1,14 @@
 import { NextPage } from 'next';
+import MainLayoit from '../layouts/MainLayout';
+import SampleArticle from './articles/SampleArticle';
 
 const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
-  <div>
-    <h1>Hello world!</h1>
-    <p> user agent: {userAgent}</p>
-    <p> Version: {process.env.version} </p>
-  </div>
+  <MainLayoit>
+    <h1>think; think; think;</h1>
+    <p>Sandbox for web development.</p>
+    <SampleArticle />
+    <p> UA: {userAgent}</p>
+  </MainLayoit>
 );
 
 Home.getInitialProps = async ({ req }) => {

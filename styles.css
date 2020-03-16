@@ -1,8 +1,14 @@
+html, body {
+  height: 100%;
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', Hiragino Kaku Gothic ProN, Helvetica Neue, Verdana, Meiryo, Yu Gothic, YuGothic, 'M+ 1p', sans-serif;
-  padding: 20px 20px 60px;
   max-width: 680px;
   margin: 0 auto;
+}
+
+p {
+  font-weight: 300;
 }
 
 h1 {
